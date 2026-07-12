@@ -1,0 +1,73 @@
+{
+	"geode": "5.7.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "aeternitas.chaos-mod",
+	"name": "Chaos Mod",
+	"version": "v1.0.0",
+	"developer": "Aeternitas",
+	"description": "Every 10 seconds there is CHAOS!",
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+	"settings": {
+		"event_speedup": {
+			"name": "Enable Speedup",
+			"description": "1.5x game speed event",
+			"type": "bool",
+			"default": true
+		},
+		"event_slowdown": {
+			"name": "Enable Slowdown",
+			"description": "0.75x game speed event",
+			"type": "bool",
+			"default": true
+		},
+		"event_mirror": {
+			"name": "Enable Mirror",
+			"description": "Mirror the level horizontally",
+			"type": "bool",
+			"default": true
+		},
+		"event_oldtv": {
+			"name": "Enable Old",
+			"description": "Black-and-white filter event",
+			"type": "bool",
+			"default": true
+		},
+		"event_flashbang": {
+			"name": "Enable Flashbang",
+			"description": "Blinding white flash event",
+			"type": "bool",
+			"default": true
+		},
+		"event_noclip": {
+			"name": "Enable Noclip",
+			"description": "Invulnerable ghost mode",
+			"type": "bool",
+			"default": true
+		},
+		"event_spin": {
+			"name": "Enable Spin",
+			"description": "Camera rotates 180 degrees over 2 seconds",
+			"type": "bool",
+			"default": true
+		},
+		"event_invisible": {
+			"name": "Enable Invisible",
+			"description": "Player is hidden, level becomes 90% transparent",
+			"type": "bool",
+			"default": true
+		},
+		"event_normal": {
+			"name": "Normal can repeat",
+			"description": "When OFF: Normal only appears at level start. When ON: Normal can also appear as a random event.",
+			"type": "bool",
+			"default": false
+		}
+	}
+}
